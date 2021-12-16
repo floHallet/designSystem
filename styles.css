@@ -1,5 +1,5 @@
 body {
-  max-width: 860px;
+  max-width: 960px;
   margin: 0 auto;
   background-color: #FBDBC1;
 }
@@ -33,10 +33,11 @@ section {
   margin-bottom: 40px;
 }
 .colors div {
-  width: 195px;
+  min-width: 150px;
+  width: 24%;
   text-align: center;
   display: inline-block;
-  margin: 0 1px 4px 0px;
+  margin: 0 1px 4px 1px;
 }
 
 .colorbox-1 {
@@ -54,10 +55,9 @@ section {
 }
 
 .fonts div {
-  width: 350px;
   display: inline-block;
-  margin: 0 1px 3px 1px;
-  padding: 0 35px 20px 10px;
+  margin: 0 1px 4px 1px;
+  padding: 0 30px 10px 0px;
 }
 
 p.font-family-1, p.font-family-2 {
