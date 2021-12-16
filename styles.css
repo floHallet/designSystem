@@ -1,0 +1,86 @@
+body {
+  max-width: 860px;
+  margin: 0 auto;
+  background-color: #FBDBC1;
+}
+
+h1 {
+font-family: 'Ruda';
+font-size: 48px;
+font-weight: 700;
+}
+
+h2 {
+font-family: 'Roboto Slab';
+font-size: 28px;
+font-weight: 500;
+}
+
+p, ul {
+font-family: 'Roboto Slab';
+font-size: 16px;
+font-weight: 400;
+}
+
+section {
+  border: 3px solid #F1F3F8;
+  padding: 0 10px 10px 20px;
+  margin: 10px;
+  background-color: white;
+}
+
+.colors h2 {
+  margin-bottom: 40px;
+}
+.colors div {
+  width: 195px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 1px 4px 0px;
+}
+
+.colorbox-1 {
+  background-color: #FBDBC1;
+}
+.colorbox-2 {
+  background-color: #430C15;
+  color: white;
+}
+.colorbox-3 {
+  background-color: #66C3D1;
+}
+.colorbox-4 {
+  background-color: #F1F3F8;
+}
+
+.fonts div {
+  width: 350px;
+  display: inline-block;
+  margin: 0 1px 3px 1px;
+  padding: 0 35px 20px 10px;
+}
+
+p.font-family-1, p.font-family-2 {
+  text-decoration: underline;
+}
+
+.font-family-1 p {
+  font-family: 'Ruda';
+}
+
+.font-family-2 p {
+  font-family: 'Roboto Slab';
+}
+
+.styles {
+  background-color: #66C3D1;
+  color: #430C15;
+}
+
+.styles div {
+  padding-bottom: 25px;
+}
+
+.styles h1, .styles h2{
+  margin-bottom: 20px;
+}
