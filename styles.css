@@ -1,43 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  max-width: 960px;
-  margin: 0 auto;
+  margin: 0%;
+  padding: 0%;
   background-color: #FBDBC1;
 }
 
+header {
+  position: sticky;
+  top: 0%;
+  margin: 0%;
+  padding: 2%;
+  border-bottom: 3px dashed #F1F3F8;
+  background-color: #FBDBC1;
+  z-index: 1;
+}
+
 h1 {
-font-family: 'Ruda';
-font-size: 48px;
-font-weight: 700;
+  font-family: 'Ruda';
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2% 1%;
+  background-color: #FBDBC1;
 }
 
 h2 {
-font-family: 'Roboto Slab';
-font-size: 28px;
-font-weight: 500;
+  font-family: 'Roboto Slab';
+  font-size: 1.85em;
+  font-weight: 500;
 }
 
 p, ul {
-font-family: 'Roboto Slab';
-font-size: 16px;
-font-weight: 400;
+  font-family: 'Roboto Slab';
+  font-size: 1em;
+  font-weight: 400;
 }
 
 section {
   border: 3px solid #F1F3F8;
-  padding: 0 10px 10px 20px;
-  margin: 10px;
+  padding: 0 2% 2% 2%;
+  margin-bottom: 2%;
   background-color: white;
 }
 
-.colors h2 {
-  margin-bottom: 40px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
 }
-.colors div {
-  min-width: 150px;
-  width: 24%;
+
+.colors {
+  padding-bottom: 3%;
+}
+
+.colors div div {
+  min-width: 200px;
+  flex: 1 200px;
   text-align: center;
-  display: inline-block;
-  margin: 0 1px 4px 1px;
+  margin: 0 1px 2px 1px;
 }
 
 .colorbox-1 {
@@ -54,14 +91,15 @@ section {
   background-color: #F1F3F8;
 }
 
-.fonts div {
-  display: inline-block;
-  margin: 0 1px 4px 1px;
-  padding: 0 30px 10px 0px;
+.fonts div div {
+  min-width: 100px;
+  padding-right: 1%;
+  flex: 1 200px;
 }
 
 p.font-family-1, p.font-family-2 {
   text-decoration: underline;
+  margin: 0%;
 }
 
 .font-family-1 p {
@@ -77,10 +115,10 @@ p.font-family-1, p.font-family-2 {
   color: #430C15;
 }
 
-.styles div {
-  padding-bottom: 25px;
+.styles h1 {
+  text-align: left;
 }
 
-.styles h1, .styles h2{
-  margin-bottom: 20px;
+.styles div {
+  padding-bottom: 2%;
 }
